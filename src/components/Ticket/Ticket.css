@@ -1,0 +1,133 @@
+.ticket-about {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: right;
+    background-color: darkgray;
+}
+.ticket {
+    margin-top: 30px;
+    margin-right: 100px;
+    border-radius: 14px;
+    display: flex;
+    width: 900px;
+    height: 200px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.logo-btn {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    border-right: 1px solid #A9A9A9;
+}
+.btn-price{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 14px;
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.logo {
+    display: flex;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.arrival_time {
+    width: 150px;
+    font-size: 50px;
+    text-align: left;
+}
+
+.departure_time {
+    font-size: 50px;
+    width: 150px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.info {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.origin {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.carrier {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+
+}
+
+.origin_name {
+    width: 100px;
+    text-align: left;
+
+}
+
+.destination_name {
+    width: 80px;
+    text-align: left;
+
+}
+
+.origin-value {
+    width: 50px;
+    text-align: left;
+
+}
+
+.carrier-value {
+    width: 50px;
+    text-align: left;
+}
+
+.div-stop {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #A9A9A9;
+}
+
+.text-stop {
+    width: 100px;
+    margin: 0;
+}
+
+.departure_date {
+    color: darkgray;
+}
+
+.arrival_date {
+    color: darkgray;
+}
