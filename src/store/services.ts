@@ -4,6 +4,7 @@ import type { Tickets } from './types'
 const API_TICKETS = "http://localhost:8000/tickets"
 
 type ticketResponse = Tickets[]
+
 export const ticketsApi = createApi({
     reducerPath: 'ticketsApi',
     baseQuery: fetchBaseQuery({ baseUrl: API_TICKETS }),

@@ -1,16 +1,21 @@
 import React from 'react';
 // @ts-ignore
 import icon from "../../icon/Turkish_Airlines.svg.png";
-import {useGetTicketsByNameQuery} from "../../store/services";
-import './Ticket.css'
+import { useGetTicketsByNameQuery} from "../../store/services";
+import './Ticket.scss'
 const Ticket = () => {
+
     const {data = []} = useGetTicketsByNameQuery()
+    const getValue = () => {
+
+    }
+
     return (
         <div className="ticket-about">
             {
                 data.map((ticket) => {
                     return (
-                        <div key={ticket.id} className="ticket" >
+                        <div className="ticket" >
                             <div className="logo-btn">
                                 <img className="logo" src={icon} />
                                 <button className='btn-price'>Купить за {ticket.price} P</button>

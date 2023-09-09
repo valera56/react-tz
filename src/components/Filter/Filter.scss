@@ -17,6 +17,7 @@
 .block-btn {
     display: flex;
     justify-content: center;
+    height: 50px;
 }
 
 .currency-rub {
@@ -32,6 +33,14 @@
     transition: 0.5s;
 }
 .div-check {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 150px;
     margin-top: 30px;
 }
 
+.transfers {
+    width: 100px;
+    height: 20px;
+}

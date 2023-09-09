@@ -1,5 +1,4 @@
 export interface Tickets {
-    id: string
     arrival_date: string
     arrival_time: string
     carrier: string
